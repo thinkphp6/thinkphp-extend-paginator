@@ -16,7 +16,7 @@ Usage is simple, to install, add the following to your project's composer.json:
 ```json
     "repositories": [
         {
-            "url": "https://github.com/wanyiinc/paginator.git",
+            "url": "https://github.com/thinkphp6/thinkphp-extend-paginator.git",
             "type": "git"
         }
     ]
@@ -25,7 +25,7 @@ Usage is simple, to install, add the following to your project's composer.json:
 Then add the library in the usual way using composer:
 
 ```
-composer require wanyi/thinkphp-extend-paginator:dev-main
+composer require thinkphp6/thinkphp-extend-paginator:dev-main
 ```
 
 ## 配置
