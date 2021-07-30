@@ -1,0 +1,30 @@
+{
+  "name": "wanyi/thinkphp-extend-paginator",
+  "description": "ThinkPHP 6 分页扩展",
+  "homepage": "https://github.com/maxmind/MaxMind-DB-Reader-php",
+  "license": "MIT",
+  "keywords": ["thinkphp", "thinkphp6", "tp6", "paginator", "driver", "extend paginator"],
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "topthink/think-orm":"2.0.*"
+  },
+  "suggest": {
+    "ext-bcmath": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+    "ext-gmp": "bcmath or gmp is required for decoding larger integers with the pure PHP decoder",
+    "ext-maxminddb": "A C-based database decoder that provides significantly faster lookups"
+  },
+  "authors": [
+    {
+      "name": "Matt Xu",
+      "email": "dev@e0553.com",
+      "homepage": "https://www.maxmind.com/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "wanyi\\thinkExtendPaginator": "src"
+    },
+    "files": []
+  }
+}
