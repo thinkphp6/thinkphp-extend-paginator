@@ -1,24 +1,33 @@
 {
-  "name": "thinkphp6/thinkphp-extend-paginator",
-  "type": "library",
-  "description": "ThinkPHP 6 分页扩展",
-  "keywords": ["thinkphp", "thinkphp6", "tp6", "paginator", "driver", "extend paginator"],
-  "homepage": "https://github.com/thinkphp6/thinkphp-extend-paginator",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Matt",
-      "email": "git@ninetian.com",
-      "homepage": "https://www.ninetian.com.com/"
-    }
-  ],
-  "require": {
-    "php": "^7.2|^8.0",
-    "topthink/think-orm":"2.0.*"
-  },
-  "autoload": {
-    "psr-4":  {
-	"wanyi\\thinkExtendPaginator\\": "src"
-     }
-  }
+   "name":"thinkphp6/thinkphp-extend-paginator",
+   "type":"library",
+   "description":"ThinkPHP 6 分页扩展",
+   "keywords":[
+      "thinkphp",
+      "thinkphp6",
+      "tp6",
+      "paginator",
+      "driver",
+      "extend paginator"
+   ],
+   "homepage":"https://github.com/thinkphp6/thinkphp-extend-paginator",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"Matt",
+         "email":"git@ninetian.com",
+         "homepage":"https://www.ninetian.com.com/"
+      }
+   ],
+   "require":{
+      "php":"^7.2|^8.0",
+      "topthink/think-orm":"2.0.*"
+   },
+   "autoload":{
+      "psr-4":{
+         "wanyi\\thinkExtendPaginator\\":"src"
+      }
+   },
+   "minimum-stability":"dev",
+   "prefer-stable":true
 }
