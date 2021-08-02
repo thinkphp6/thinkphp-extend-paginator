@@ -21,5 +21,6 @@
       "wanyi\\thinkExtendPaginator": "src"
     },
     "files": []
-  }
+  },
+  "minimum-stability": "dev",
 }
