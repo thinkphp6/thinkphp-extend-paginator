@@ -14,7 +14,7 @@
   "require": {
     "php": ">=7.2",
     "topthink/think-orm":"2.0.*"
-  }
+  },
   "authors": [
     {
       "name": "Matt",
@@ -28,6 +28,6 @@
     },
     "files": []
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
    "prefer-stable": true
 }
