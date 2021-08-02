@@ -5,6 +5,12 @@
   "license": "MIT",
   "keywords": ["thinkphp", "thinkphp6", "tp6", "paginator", "driver", "extend paginator"],
   "type": "library",
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thinkphp6/thinkphp-extend-paginator.git"
+        }
+    ],
   "require": {
     "php": ">=7.2",
     "topthink/think-orm":"2.0.*"
